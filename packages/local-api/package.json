@@ -1,0 +1,32 @@
+{
+  "name": "@journalify/local-api",
+  "version": "1.0.3",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@journalify/local-client": "^1.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.0",
+    "undefined": "C:\\Users\\Wesley\\Desktop\\Projects\\journalify"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.12"
+  },
+  "gitHead": "2e2a2b1e974bd029cd934c6538f72205abb9a7f9"
+}
